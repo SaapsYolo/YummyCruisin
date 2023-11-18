@@ -1,0 +1,468 @@
+/* Define the body style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Define the header style */
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: #e7e393;
+    position: relative;
+}
+
+.homeBody {
+    height: 80vh;
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.containerImage {
+    width: 500px;
+    height: 500px;
+    
+    display: flex;
+    margin-left: 0.5px;
+    justify-content: end;
+}
+
+.welcomeImage {
+    align-items: center;
+    width:50px;
+    height: 50px;
+}
+
+.welcomeContainer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+    color: #e7e393;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color: #e7e393;
+}
+
+/* Define the navigation style */
+.nav {
+    background-color: #333;
+    padding: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.secondNavMenu{
+    display: flex;
+    justify-content: space-between;
+}
+.logout a:hover{
+    border-radius: 20px;
+}
+
+/* Define the navigation link style */
+a {
+    color: #e7e393;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+/* Change the color of the navigation link when hovering over it */
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Define the login button style */
+/* a sign in button on the homepage */
+.signIn {
+    color: #e7e393;
+    background-color: #dd7230;
+    padding: 10px 16px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 0.95rem;
+    transition: scale .2 ease;
+}
+/* Define the login button hover style */
+.signIn:hover {
+    opacity: 1;
+    scale: 1.05;
+    color: #dd7230;
+}
+
+.signIn:active {
+    scale: 0.95;
+}
+.logInPage{
+    padding-top: 100px;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-image: url(images/login.jpg);
+    background-repeat: no-repeat;
+}
+.logInPage h4{
+    font-size: 24px;
+    font-weight: bold;
+}
+.logInPage .username, .passwords{
+    color: #dd7230;
+    font-size: 22px;
+    padding: 20px;
+
+}
+.logInPage .passwordsInput, .usernameInput{
+    border-radius: 12px;
+
+}
+.logInPage .loginBtn {
+    background-color: #dd7230;
+    color: #ddd;
+    border: solid 1;
+    padding: 20px;
+    border-radius: 12px;
+    border-color: #e7e393;
+    
+    cursor: pointer;
+}
+
+.logInPage .loginBtn:hover{
+    background-color: #333;
+    color: white;
+}
+.logInIcon{
+    height: 100px;
+}
+.logInPage .forgot_passswordBtn{
+    background-color: #fff;
+    color: #dd7230;
+    border: solid 1;
+    padding: 20px;
+    border-radius: 12px;
+    border-color: #e7e393;
+    
+    cursor: pointer;
+}
+
+/* forgot password */
+.forgotPassword{
+    padding-top: 100px;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-image: url(images/login.jpg);
+    background-repeat: no-repeat;
+}
+.forgotPassword .new_passwordInput{
+    border-radius: 12px;
+}
+.forgotPassword .submit {
+    background-color: #dd7230;
+    color: #ddd;
+    border: solid 1;
+    padding: 20px;
+    border-radius: 12px;
+    border-color: #e7e393;
+    
+    cursor: pointer;
+}
+.forgotPassword .submit:hover{
+    background-color: #333;
+    color: #dd7230;
+}
+.forgotPassword h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: #dd7230;
+
+}
+
+
+
+/* Sign up page */
+.error {
+    color: red;
+}
+.success{
+    color: green;
+}
+/* .loginImage{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 200px;    
+} */
+
+.loginMain{
+    height: 1000px;
+    display: flex;
+    background-color: #333;
+    align-content: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+.loginImage{
+    margin: 0;
+    padding: 0;
+    width: 350px;
+   max-height: 100%;
+   border-radius: 50px;;
+}
+.loginHero{
+    margin: 0;
+    padding: 20px;
+}
+
+header h2{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.details{
+    color: #e7e393;
+}
+.detailsText{
+    border-radius: 7px;
+    /* border-color: #dd7230; */
+
+}
+.goBackButton{
+    background-color: #333;
+    color: #ddd;
+    border: solid 1;
+    padding: 10px;
+    border-radius: 12px;
+    border-color: #ddd;
+    cursor: pointer;
+
+}
+.goBackButton:hover{
+    opacity: 1;
+    scale: 1.05;
+}
+
+.signUpButton{
+    background-color: #333;
+    color: #ddd;
+    border: solid 1;
+    padding: 20px;
+    border-radius: 12px;
+    border-color: #e7e393;
+    
+    cursor: pointer;
+}
+.signUpButton:hover {
+    opacity: 1;
+    scale: 1.05;
+    color: #dd7230;
+    background-color: #333 ;
+}
+
+.actionBtn{
+    border-radius: 20px;
+    
+}
+
+
+/* About us */
+main{
+    padding: 80px;
+    color: #333;    
+}
+.aboutUsImage{ 
+    margin-top: 30px;
+   max-width: 25%;
+   max-height: 80%;
+   border-radius: 50px;;
+}
+.aboutUsHero h2{
+    font-size: 30px;
+    color: #dd7230;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* menu */
+.mealBody{
+    margin-top: 0px;
+    margin-left:0px;
+    background-image: url(images/restaurant.jpg); 
+    background-repeat: round;
+    background-attachment: fixed; 
+    background-color: #000;
+    /* background-size: cover; */
+}
+.mealBody h2{
+    text-align: center;
+    
+}
+.mealType h2{
+    color: #000;
+}
+.leftAlign{
+    display: inline-flex;
+    border-radius: 20px;
+    background-color: transparent;
+    
+}
+.mealDesc{
+    background-color: #333;
+    width: 28vw;
+    height: 28vh;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    box-shadow: rgba(255, 255, 255, 0.3)  0 0 10px 10px;
+}
+.addCart{
+   background-color: white;
+   color: #000;
+   border-style: none; 
+   border-radius: 14px;
+   border-color: #dd7230 5px;
+   padding: 8px;
+   font-weight: bold;
+}
+.addCart:hover{
+    background-color: #333;
+    color: #ddd;
+    border: #dd7230 2px solid;
+    cursor: pointer;
+}
+.space{
+    height: 50vh;
+}
+.mealIMG{
+    border-radius: 50px;
+}
+.mealIMG img:hover{
+    background-color: transparent ;
+}
+.leftAlign h3{
+    color: #dd7230;
+    font-size: 20px;
+}
+.leftAlign h4{
+    font-size: 14px;
+    color: #ddd;
+    
+}
+.mealPrice{
+    color: #dd7230;
+    font-weight: bold;
+    font-size: 28px;
+}
+.viewCart{
+    color: #ddd;
+    background-color: #dd7230;
+    border: #ddd solid 2px;
+    border-radius: 50px;
+    width: 8vw;
+    font-size: 16px;
+    font-weight: bold;
+}
+.viewCart:hover{
+    background-color: #333;
+    border-color: #e7e393;
+}
+.viewCart a:hover{
+    background-color: #333; 
+    border-radius: 50px;
+    color: #dd7230;
+}
+.logout a{
+    font-weight: bold;
+}
+
+.nav b{
+    color: #ddd;
+    font-size: 28px;
+}
+.mealNav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mealBody h2{
+    color: #ddd;
+    font-size: 28px;
+}
+.footer{
+    height: 20vh;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #ddd;
+}
+/* 
+.footer p{} */
+
+/* checkout page */
+.bgCart{
+    height: 10px;
+}
+.submitButton{
+    border-radius: 25px;
+    padding: 15px;
+    background-color: #dd7230;
+    color: #ddd;
+    border: none;
+    cursor: pointer;
+}
+.submitButton:hover{
+    background-color: #333;
+    color: #dd7230;
+}
+.socialsFooter{
+    display: inline-flex;
+    align-items: center;
+}
+.fa, fa-light {
+    /* padding: 20px; */
+    font-size: 70px;
+    /* width: 50px; */
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Facebook */
+  .fa-facebook {
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    color: white;
+  }
+  /* Instagram */
+  .fa-instagram {
+    color: white;
+  }
+
+  .fa-arrow-right-from-bracket{
+    color: white;
+  }
+  
